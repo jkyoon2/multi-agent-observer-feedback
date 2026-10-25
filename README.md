@@ -2,10 +2,6 @@
 
 Data accompanying *Same Behavior, Different Feedback: Interpreting Multi-Agent Coordination Beyond Performance Metrics*. The study paired 108 agent trajectories with ratings and written feedback from 216 observers.
 
-![Figure 1. Study overview: factory environment, experimental conditions, and crowdsourced monitoring.](figures/study_overview.png)
-
-*Figure 1 from the paper: study overview and data collection.*
-
 ## Task and feedback
 
 Agents collaborated in a simulated factory. The videos varied by layout, team size, and performance level.
