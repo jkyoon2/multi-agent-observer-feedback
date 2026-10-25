@@ -28,4 +28,4 @@ Observers could describe the same behavior in different ways, as the example bel
 
 Join feedback to ratings by `observation_id`, ratings to participants by `participant_id`, and ratings to the trajectory manifest by `trajectory_id`. The [data dictionary](docs/data_dictionary.md) defines each field and survey question; `SHA256SUMS` lists file checksums.
 
-The response files omit recruitment IDs and exact timestamps. Release-local IDs are pseudonyms; feedback text is verbatim, and video frame indices are retained for locating comments. Reuse terms for participant responses are under review; no license is specified for this revision. Paper citation details and an archival DOI will be added when available.
+The response files omit recruitment IDs and exact timestamps. Release-local IDs are pseudonyms; feedback text is verbatim, and video frame indices are retained for locating comments. Participants consented to public release of their responses. Broader reuse rights have not been confirmed, so this version grants no license to redistribute or adapt participant text. Paper citation details and an archival DOI will be added when available.
