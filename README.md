@@ -1,14 +1,14 @@
 # Multi-Agent Observer Feedback
 
-Data accompanying *Same Behavior, Different Feedback: Interpreting Multi-Agent Coordination Beyond Performance Metrics*. The study paired 108 agent trajectories with ratings and written feedback from 216 observers.
+Agent trajectories and observer responses from a simulated factory collaboration study (108 trajectories; 216 observers).
 
 ## Task and feedback
 
 Agents collaborated in a simulated factory. The videos varied by layout, team size, and performance level.
 
-![Figure 2. Factory workflow, layouts, team sizes, and performance levels.](figures/factory_workflow.png)
+![Factory workflow, layouts, team sizes, and performance levels.](figures/factory_workflow.png)
 
-*Figure 2 from the paper: factory task and experimental conditions.*
+*Factory task and experimental conditions.*
 
 Observers could describe the same behavior in different ways, as the example below illustrates.
 
@@ -28,4 +28,6 @@ Observers could describe the same behavior in different ways, as the example bel
 
 Join feedback to ratings by `observation_id`, ratings to participants by `participant_id`, and ratings to the trajectory manifest by `trajectory_id`. The [data dictionary](docs/data_dictionary.md) defines each field and survey question; `SHA256SUMS` lists file checksums.
 
-The response files omit recruitment IDs and exact timestamps. Release-local IDs are pseudonyms; feedback text is verbatim, and video frame indices are retained for locating comments. Participants consented to public release of their responses. Broader reuse rights have not been confirmed, so this version grants no license to redistribute or adapt participant text. Paper citation details and an archival DOI will be added when available.
+## Access and reuse
+
+Participant identifiers and exact timestamps were removed; written feedback remains verbatim. This release is available for public viewing. No license for reuse, redistribution, or adaptation is granted.
